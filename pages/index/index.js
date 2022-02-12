@@ -6,7 +6,6 @@ Page({
   data: {
     showModal1: false,
     showModal2: false,
-    showModal3: false,
     showModal4: false,
     showModal5: false,
     showModal6: false,
@@ -14,42 +13,14 @@ Page({
     showModal8: false,
     choose: 0
   },
-
-  imgLoad(e){
-    console.log(`图片加载成功，width: ${ev.detail.width}; height: ${ev.detail.height}`)
-      this.setData({
-        choose: 1
-      })
-  },
-
-  //什么是垃圾分类
-  classify: function () {
-    wx.navigateTo({
-      url: '../jump/jump?id=0',
-    })
-  },
-
-  //垃圾分类的好处
-  benefit: function () {
-    wx.navigateTo({
-      url: '../jump/jump?id=1',
-    })
-  },
-
-//垃圾桶的标志
-  signal: function () {
-    wx.navigateTo({
-      url: '../jump/jump?id=2',
-    })
-  },
-
-  //垃圾分类的小知识
-  know: function () {
-    wx.navigateTo({
-      url: '../jump/jump?id=3',
-    })
-  },
   
+  mb4_: function(e){
+    const id = e.target.dataset.text
+    wx.navigateTo({
+      url: '../jump/jump?id=' + id,
+    })
+  },
+
   //回收桶
   recoverable: function () {
     this.setData({
@@ -100,6 +71,5 @@ Page({
   },
 
 onLoad(option){
-
 }
 })

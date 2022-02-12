@@ -1,5 +1,10 @@
 //app.js
 App({
+  onLaunch: function(){
+    wx.cloud.init({
+      env: "sorting-88tzu"
+    })
+  },
   globalData:{
     detail: ["one.txt", "two.txt", "three.txt", "four.txt"]
   }

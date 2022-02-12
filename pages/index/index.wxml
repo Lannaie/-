@@ -1,28 +1,18 @@
 <!-- 大背景图 -->
- <!-- style="{{choose==0?'opacity:{{1}}':'opacity:{{0}}'}}" -->
- <view class="content">
+<view class="content">
 <image class="background"></image>
-<button class="classify" bindtap="classify">什么是垃圾分类</button>
-<button class="benefit" bindtap="benefit">垃圾分类的好处</button>
-<button class="signal" bindtap="signal">垃圾桶的标志</button>
-<button class="know" bindtap="know">垃圾分类的小知识</button>
+<button class="classify" bindtap="mb4_" data-text='0'>什么是垃圾分类</button>
+<button class="benefit" bindtap="mb4_" data-text='1'>垃圾分类的好处</button>
+<button class="signal" bindtap="mb4_" data-text='2'>垃圾桶的标志</button>
+<button class="know" bindtap="mb4_"  data-text='3'>垃圾分类的小知识</button>
 <button class="recoverable" bindtap="recoverable">可回收垃圾</button>
 <button class="harmful" bindtap="harmful">有害垃圾</button>
 <button class="food" bindtap="food">厨余垃圾</button>
 <button class="other" bindtap="other">其他垃圾</button>
-<!-- <view class="hint">点击叶子和下方垃圾桶进行学习哦！</view> -->
-
-<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal3}}"></view>
-<view class="modalDlg" wx:if="{{showModal3}}">
-<image class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png">
-<image lazy-load class="back" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242065217.png"></image>
-</image>
-<button class="close" bindtap="go3">关闭</button>
-</view>
 
 <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal4}}"></view>
 <view class="modalDlg" wx:if="{{showModal4}}">
-<image lazy-load class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png"></image>
+<image class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png"></image>
 <text class="inf">" 垃圾主要分为可回收垃圾、厨余垃圾、有害垃圾、其他垃圾四类。垃圾分类可提高垃圾的资源价值和经济价值，力争物尽其用。"</text>
 <button class="close" bindtap="go4">关闭</button>
 </view>
