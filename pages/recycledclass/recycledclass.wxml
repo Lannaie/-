@@ -1,0 +1,22 @@
+<view class="content">
+<image class="background" src="/icons/分类图.png"></image>
+<image class="details" src="https://736f-sorting-88tzu-1301418393.tcb.qcloud.la/1583241721002.png?sign=00d234df63458eee60222487d6b22842&t=1644649060"></image>
+<view class="familiar">常见分类</view>
+<view class="eg1">书本</view>
+<view class="eg2">玻璃杯</view>
+<view class="eg3">塑料瓶</view>
+<view class="eg4">安全帽</view>
+<view class="eg5">床单</view>
+<view class="eg6">金属</view>
+<view class="eg7">报纸</view>
+<view class="eg8">易拉罐</view>
+<view class="eg9">报废车辆</view>
+<view class="eg10">背包</view>
+<view class="eg11">办公桌</view>
+<view class="eg12">抹布</view>
+<view class="eg13">酸奶盒</view>
+<view class="eg14">窗帘</view>
+<view class="eg15">积木</view>
+</view>
+
+

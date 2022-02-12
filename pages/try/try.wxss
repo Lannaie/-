@@ -1,0 +1,153 @@
+page{
+  height: 100%;
+
+}
+/* 背景图 */
+.bg1{
+width: 100%;
+height: 25%;
+top:0;
+left:0;
+position: absolute;
+background:#43CA8D;
+}
+.bg2{
+width: 88%;
+height: 18%;
+top:18%;
+left:6%;
+position: absolute;
+background:#E7FEEA;
+border-radius: 6%;
+}
+.bg3{
+width: 40%;
+height: 12%;
+top:42%;
+left:6%;
+position: absolute;
+background:#E7FEEA;
+border-radius: 6%;
+}
+.bg4{
+width: 40%;
+height: 12%;
+top:42%;
+left:53%;
+position: absolute;
+background:#E7FEEA;
+border-radius: 6%;
+}
+.bg5{
+width: 40%;
+height: 12%;
+top:60%;
+left:6%;
+position: absolute;
+background:#E7FEEA;
+border-radius: 6%;
+}
+.bg6{
+width: 40%;
+height: 12%;
+top:60%;
+left:53%;
+position: absolute;
+background:#E7FEEA;
+border-radius: 6%;
+}
+.img1{
+left:5%;
+top:8%;
+width: 20%;
+height: 50%;
+position: absolute;
+}
+.img2{
+left:38%;
+top:8%;
+width: 20%;
+height: 50%;
+position: absolute;
+}
+.img3{
+left:70%;
+top:8%;
+width: 20%;
+height: 50%;
+position: absolute;
+}
+.what{
+left:6%;
+top:58%;
+width: 20%;
+height: 20%;
+position: absolute;
+color: #09A67A;
+font-weight: bold;
+text-align: center;
+}
+.benefit{
+left:38%;
+top:58%;
+width: 20%;
+height: 20%;
+position: absolute;
+color: #09A67A;
+font-weight: bold;
+text-align: center;
+}
+.know{
+left:70%;
+top:58%;
+width: 20%;
+height: 20%;
+position: absolute;
+color: #09A67A;
+font-weight: bold;
+text-align: center;
+}
+.text1{
+left:30%;
+top:30%;
+width: 60%;
+height: 20%;
+position: absolute;
+color: #09A67A;
+font-weight: bold;
+text-align: center;
+font-size: 45rpx;
+}
+.text2{
+left:30%;
+top:30%;
+width: 60%;
+height: 20%;
+position: absolute;
+color: #09A67A;
+font-weight: bold;
+text-align: center;
+font-size: 45rpx;
+}
+.text3{
+left:30%;
+top:30%;
+width: 60%;
+height: 20%;
+position: absolute;
+color: #09A67A;
+font-weight: bold;
+text-align: center;
+font-size: 45rpx;
+}
+.text4{
+left:34%;
+top:30%;
+width: 60%;
+height: 20%;
+position: absolute;
+color: #09A67A;
+font-weight: bold;
+text-align: center;
+font-size: 45rpx;
+}

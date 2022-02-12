@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/artile/artile",
+    "pages/saveMessage/saveMessage",
+    "pages/grade/grade",
+    "pages/saveMessage1/saveMessage1",
+    "pages/old/old",
+    "pages/try/try",
+    "pages/type/type",
+    "pages/test/test",
+    "pages/recycledclass/recycledclass",
+    "pages/harmfulclass/harmfulclass",
+    "pages/foodclass/foodclass",
+    "pages/otherclass/otherclass",
+    "pages/game/game",
+    "pages/what/what"
+ ],
+  "window": {
+    "backgroundColor":"#D2E9E8",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#43CA8D",
+    "navigationBarTitleText": "变废为“保”",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#fff",
+    "backgroundColor": "#43CA8D",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "指南",
+        "iconPath": "icons/指南.jpg",
+        "selectedIconPath": "icons/指南.jpg"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "text": "分类",
+        "iconPath": "icons/分类.jpg",
+        "selectedIconPath": "icons/分类.jpg"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "icons/资讯.png",
+        "selectedIconPath": "icons/资讯.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap28.json"
+}

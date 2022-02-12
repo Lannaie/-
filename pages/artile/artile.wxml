@@ -1,0 +1,12 @@
+<view class="title">
+  <text>{{title[index]}}</text>
+</view>
+<view class="info">
+  <view class="circle"></view>
+  <view class="name">
+    <text>{{info[index]}}</text>
+  </view>
+</view>
+<view class="detail">
+  <text>{{allcontent}}</text>
+</view>

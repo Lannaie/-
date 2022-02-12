@@ -1,0 +1,19 @@
+<!-- 上传图片 -->
+<text>名称：</text>
+<input bindinput="getn"></input>
+<text>所属（有害A, 可回收B, 其他C, 厨房D）:</text>
+<input bindinput="geto"></input>
+<text>介绍（不多于35个字符）：</text>
+<input bindinput="geti"></input>
+<button bindtap='upload'>上传</button>
+<button bindtap="up">确定</button>
+<!-- 上传视频 -->
+<text>标题：</text>
+<input bindinput="gett"></input>
+<text>作者：</text>
+<input bindinput="geta"></input>
+<text>时间：</text>
+<input bindinput="getd"></input>
+<text>来源：</text>
+<input bindinput="gets"></input>
+<button bindtap="uploadVideo">上传视频</button>

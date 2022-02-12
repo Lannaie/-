@@ -1,0 +1,23 @@
+<view class="bg1">
+
+</view>
+<view class="bg2">
+<image class="img1" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1589855750357.png"></image>
+<image class="img2" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1589855770600.png"></image>
+<image class="img3" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1589855762831.png"></image>
+<text class='what'>什么是垃圾分类</text>
+<text class='benefit'>垃圾分类的好处</text>
+<text class='know'>垃圾分类小知识</text>
+</view>
+<view class="bg3">
+<text class='text1'>可回收物</text>
+</view>
+<view class="bg4">
+<text class='text2'>有害垃圾</text>
+</view>
+<view class="bg5">
+<text class='text3'>厨余垃圾</text>
+</view>
+<view class="bg6">
+<text class='text3'>其他垃圾</text>
+</view>

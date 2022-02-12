@@ -1,0 +1,47 @@
+page{
+  height: 100%
+}
+.title{
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 10%;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.info{
+  position: absolute;
+  top: 11%;
+  left: 5%;
+  width: 90%;
+  font-size: 30rpx;
+  height: 5%;
+}
+.circle{
+  position: absolute;
+  background-color: rgb(173,212,183);
+  top: 10%;
+  left: 0;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  border:1px solid gainsboro;
+}
+.name{
+  position: absolute;
+  top: 1%;
+  left: 40rpx;
+  width: 80%;
+  height: 99%;
+}
+.name text{
+  color: grey;
+}
+.detail{
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  width: 90%;
+  color: grey;
+}

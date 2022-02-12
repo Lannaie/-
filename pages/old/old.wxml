@@ -1,0 +1,72 @@
+<!-- 大背景图 -->
+<view class="content">
+<image class="background" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1585799707739.png"></image>
+<button class="classify" bindtap="classify"></button>
+<button class="benefit" bindtap="benefit"></button>
+<button class="signal" bindtap="signal"></button>
+<button class="know" bindtap="know"></button>
+<button class="recoverable" bindtap="recoverable"></button>
+<button class="harmful" bindtap="harmful"></button>
+<button class="food" bindtap="food"></button>
+<button class="other" bindtap="other"></button>
+<view class="hint">点击叶子和下方垃圾桶进行学习哦！</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal1}}"></view>
+<view class="modalDlg" wx:if="{{showModal1}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<text class="inf">"  垃圾分类是指按一定规定或标准将垃圾分类储存、分类投放和分类搬运，从而转变成公共资源的一系列活动的总称。"</text>
+<button class="close" bindtap="go1">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal2}}"></view>
+<view class="modalDlg" wx:if="{{showModal2}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<text class="inf">"  1、减少环境污染。2、节省土地资源。3、利用再生资源。4、提高民众价值观念。5、减少二氧化碳的排放。6、普及环保与垃圾的知识"</text>
+<button class="close" bindtap="go2">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal3}}"></view>
+<view class="modalDlg" wx:if="{{showModal3}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png">
+<image class="back" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295792001.png"></image>
+</image>
+<button class="close" bindtap="go3">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal4}}"></view>
+<view class="modalDlg" wx:if="{{showModal4}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<text class="inf">" 垃圾主要分为可回收垃圾、厨余垃圾、有害垃圾、其他垃圾四类。垃圾分类可提高垃圾的资源价值和经济价值，力争物尽其用。"</text>
+<button class="close" bindtap="go4">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal5}}"></view>
+<view class="modalDlg" wx:if="{{showModal5}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<text class="inf">" 可回收物就是可以再生循环的垃圾。本身或材质可再利用的纸类、硬纸板、玻璃、塑料、金属、塑料包装，与这些材质有关的皆可回收。"</text>
+<button class="close" bindtap="go5">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal6}}"></view>
+<view class="modalDlg" wx:if="{{showModal6}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<text class="inf">" 有害垃圾指废电池、废灯管、废药品、废油漆及其容器等对人体健康或者自然环境造成直接或者潜在危害的生活废弃物。"</text>
+<button class="close" bindtap="go6">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal7}}"></view>
+<view class="modalDlg" wx:if="{{showModal7}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<text class="inf">" 厨余垃圾是指居民日常生活及食品加工、饮食服务、单位供餐等活动中产生的垃圾"</text>
+<button class="close" bindtap="go7">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal8}}"></view>
+<view class="modalDlg" wx:if="{{showModal8}}">
+<image class="bg" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<text class="inf">"  其他垃圾指危害较小，但无再次利用价值的垃圾，如建筑垃圾类，生活垃圾类等.是可回收垃圾、厨余垃圾、有害垃圾剩余下来的一种垃圾。"</text>
+<button class="close" bindtap="go8">关闭</button>
+</view>
+
+</view>
+

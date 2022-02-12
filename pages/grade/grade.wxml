@@ -1,0 +1,10 @@
+<view class="content">
+<image class="background" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583294639500.png"></image>
+<view class="grade">
+<view class="before">你的成绩为：</view>
+<view class="score">{{total}}</view>
+<view class="comfort">{{good}}</view>
+</view>
+<button class="return" bindtap="back">返回</button>
+</view>
+

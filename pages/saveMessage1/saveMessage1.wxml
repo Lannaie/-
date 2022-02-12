@@ -1,0 +1,6 @@
+<text>名称</text>
+<input bindinput="getn"></input>
+<text>所属（属于有害垃圾, 属于湿垃圾, 属于干垃圾, 属于可回收垃圾）:</text>
+<input bindinput="geto"></input>
+<button bindtap='upload'>上传</button>
+<button bindtap="up">确定</button>

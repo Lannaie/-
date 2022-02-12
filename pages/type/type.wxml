@@ -1,0 +1,26 @@
+<!-- 背景图 -->
+<image class="head-bg" src="/icons/type背景.png"></image>
+<!-- 具体分类内容 -->
+<view class="content">
+<view class="hint">点击垃圾桶查看分类具体内容哦！</view>
+<button class="recoverable" bindtap="recoverable"></button>
+<button class="harmful" bindtap="harmful"></button>
+<button class="food" bindtap="food"></button>
+<button class="other" bindtap="other"></button>
+<!-- 查找框 -->
+<icon class="searchcion" size='20' type='search'></icon>
+<input class="searchbox" placeholder="搜索垃圾查看对应分类" bindinput="search"/>
+<button class='searchkey' type='primary' bindtap="submit">搜索</button> 
+<view class="{{showed?'display':'searchbar'}}">
+  <view class="val" bindtap="select" id="{{catList[0].name}}" data-text="0">{{catList[0].name}}</view>
+  <view class="val" bindtap="select" id="{{catList[1].name}}" data-text="1">{{catList[1].name}}</view>
+  <view class="val" bindtap="select" id="{{catList[2].name}}" data-text="2">{{catList[2].name}}</view>
+</view>
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+ <image class='img' src="{{img}}"/>
+ <text class='rubbish'>{{rubbishname}}</text>
+ <text class='classify'>{{rubbishtype}}</text>
+ <button class='close' bindtap="go">关闭</button>
+</view>
+</view> 

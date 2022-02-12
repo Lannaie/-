@@ -1,0 +1,21 @@
+<view class="content">
+  <image class="background" src="/icons/分类图.png"></image>
+<image class="details" src="https://736f-sorting-88tzu-1301418393.tcb.qcloud.la/1583241721002.png?sign=00d234df63458eee60222487d6b22842&t=1644649060"></image>
+<view class="familiar">常见分类</view>
+<view class="eg1">艾草</view>
+<view class="eg2">饼干</view>
+<view class="eg3">棒棒糖</view>
+<view class="eg4">八宝粥</view>
+<view class="eg5">白菜</view>
+<view class="eg6">布丁</view>
+<view class="eg7">百合</view>
+<view class="eg8">冰淇淋</view>
+<view class="eg9">冰糖葫芦</view>
+<view class="eg10">豆腐</view>
+<view class="eg11">橙子皮</view>
+<view class="eg12">草莓</view>
+<view class="eg13">蛋黄派</view>
+<view class="eg14">大米</view>
+<view class="eg15">番茄</view>
+</view>
+

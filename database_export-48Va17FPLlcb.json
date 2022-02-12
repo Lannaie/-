@@ -1,0 +1,136 @@
+{
+    "_id": "1583221598820_0.35725513648780094_33577764",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583221595317.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "茶包",
+    "ans": "C",
+    "instr": "是除有害垃圾、可回收垃圾、 湿垃圾以外的其他生活废弃物。"
+}{
+    "_id": "1583222023857_0.9667133173946656_33588972",
+    "name": "泡沫塑料",
+    "ans": "B",
+    "instr": "适宜回收利用和资源化利用，可循环使用",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583222021306.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}{
+    "_id": "1583222181799_0.7103308826534964_33597493",
+    "instr": "受过污染、无二次利用价值的废旧衣物属于其他垃圾",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583222180633.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "袜子",
+    "ans": "C"
+}{
+    "_id": "1583222431478_0.27599899140439255_33572443",
+    "instr": "不宜再生利用的生活垃圾属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583222428559.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "塑料袋",
+    "ans": "C"
+}{
+    "_id": "1583222568102_0.5566520250488873_33563341",
+    "name": "旧皮衣",
+    "ans": "C",
+    "instr": "皮革类无法回收，属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583222565336.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}{
+    "_id": "1583222711871_0.7920235062285952_33561470",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583222709166.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "枯花",
+    "ans": "D",
+    "instr": "枯花可自然降解，属于厨余垃圾。"
+}{
+    "_id": "1583222954854_0.974365200477145_33579783",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583222951869.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "围裙",
+    "ans": "C",
+    "instr": "受过污染、无二次利用价值的废旧衣服属于其他垃圾。"
+}{
+    "_id": "1583223149256_0.24132213882790565_33598025",
+    "name": "一次性塑料餐具",
+    "ans": "C",
+    "instr": "一次性用品不宜再生属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583223146295.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}{
+    "_id": "1583223311114_0.42811039607054346_33601710",
+    "ans": "B",
+    "instr": "废电器电子产品请完整丢放，勿自行拆解。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583223308727.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "照相机"
+}{
+    "_id": "1583223443487_0.8881958844310065_33577998",
+    "name": "陶瓷盘",
+    "ans": "C",
+    "instr": "陶瓷类物品不可回收，属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583223441428.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}{
+    "_id": "1583223571104_0.9210375425236905_33599432",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583223568167.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "香烟盒",
+    "ans": "B",
+    "instr": "废纸张可回收加工后循环利用，属于可回收物。"
+}{
+    "_id": "1583223947441_0.015483483987275282_33604300",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "废发动机油",
+    "ans": "A",
+    "instr": "废矿物油及其包装物，属于有害垃圾，投放时应该保持其完整性，并轻投轻放。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583223944688.png"
+}{
+    "_id": "1583229118159_0.8533962167744973_33599091",
+    "name": "旧锅铲",
+    "ans": "B",
+    "instr": "废金属可回收加工后循环利用，属于可回收物，投放时请轻轻投放。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583229115585.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}{
+    "_id": "1583224411517_0.153102382690812_33570669",
+    "ans": "A",
+    "instr": "含汞废物，属于有害垃圾，投放时宜保持其完整性，并轻轻投放。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583224409090.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "节能灯泡"
+}{
+    "_id": "1583224850382_0.9872274408041375_33619595",
+    "name": "淡菜壳",
+    "ans": "C",
+    "instr": "贝壳、动物大骨等坚硬的食物残渣属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583224847878.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}{
+    "_id": "1583225079737_0.5293268441691952_33584928",
+    "instr": "不宜再生的生活用品属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583225077413.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "塑料拖鞋",
+    "ans": "C"
+}{
+    "_id": "1583224595980_0.06921858017988392_33605270",
+    "name": "旧被子",
+    "ans": "C",
+    "instr": "毛绒玩具、棉被等利用价值低，属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583224593330.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}{
+    "_id": "1583229919459_0.7209269376032219_33575867",
+    "ans": "B",
+    "instr": "废织物可回收加工后循环利用，属于可回收物。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583229917095.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA",
+    "name": "旧棉衣"
+}{
+    "_id": "1583224961837_0.7447078661907383_33617366",
+    "name": "废LED灯",
+    "ans": "C",
+    "instr": "不宜再生利用的生活用品属于其他垃圾。",
+    "pic": "cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583224960060.png",
+    "_openid": "oU4pt5RNwbSMgs6SvWqQK4TrRuUA"
+}
+
+

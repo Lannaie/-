@@ -1,0 +1,71 @@
+<!-- 大背景图 -->
+ <!-- style="{{choose==0?'opacity:{{1}}':'opacity:{{0}}'}}" -->
+ <view class="content">
+<image class="background"></image>
+<button class="classify" bindtap="classify">什么是垃圾分类</button>
+<button class="benefit" bindtap="benefit">垃圾分类的好处</button>
+<button class="signal" bindtap="signal">垃圾桶的标志</button>
+<button class="know" bindtap="know">垃圾分类的小知识</button>
+<button class="recoverable" bindtap="recoverable">可回收垃圾</button>
+<button class="harmful" bindtap="harmful">有害垃圾</button>
+<button class="food" bindtap="food">厨余垃圾</button>
+<button class="other" bindtap="other">其他垃圾</button>
+<!-- <view class="hint">点击叶子和下方垃圾桶进行学习哦！</view> -->
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal3}}"></view>
+<view class="modalDlg" wx:if="{{showModal3}}">
+<image class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png">
+<image lazy-load class="back" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242065217.png"></image>
+</image>
+<button class="close" bindtap="go3">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal4}}"></view>
+<view class="modalDlg" wx:if="{{showModal4}}">
+<image lazy-load class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png"></image>
+<text class="inf">" 垃圾主要分为可回收垃圾、厨余垃圾、有害垃圾、其他垃圾四类。垃圾分类可提高垃圾的资源价值和经济价值，力争物尽其用。"</text>
+<button class="close" bindtap="go4">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal5}}"></view>
+<view class="modalDlg" wx:if="{{showModal5}}">
+<image class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png"></image>
+<text class="inf">" 可回收物就是可以再生循环的垃圾。本身或材质可再利用的纸类、硬纸板、玻璃、塑料、金属、塑料包装，与这些材质有关的皆可回收。"</text>
+<button class="close" bindtap="go5">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal6}}"></view>
+<view class="modalDlg" wx:if="{{showModal6}}">
+<image class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png"></image>
+<text class="inf">" 有害垃圾指废电池、废灯管、废药品、废油漆及其容器等对人体健康或者自然环境造成直接或者潜在危害的生活废弃物。"</text>
+<button class="close" bindtap="go6">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal7}}"></view>
+<view class="modalDlg" wx:if="{{showModal7}}">
+<image class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png"></image>
+<text class="inf">" 厨余垃圾是指居民日常生活及食品加工、饮食服务、单位供餐等活动中产生的垃圾"</text>
+<button class="close" bindtap="go7">关闭</button>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal8}}"></view>
+<view class="modalDlg" wx:if="{{showModal8}}">
+<image class="bg active" src="cloud://sorting-88tzu.736f-sorting-88tzu-1301418393/1583242110480.png"></image>
+<text class="inf">"  其他垃圾指危害较小，但无再次利用价值的垃圾，如建筑垃圾类，生活垃圾类等.是可回收垃圾、厨余垃圾、有害垃圾剩余下来的一种垃圾。"</text>
+<button class="close" bindtap="go8">关闭</button>
+</view>
+
+<view class="left">
+1、垃圾分类举手之劳，循环利用变废为宝。
+2、垃圾儿女要分家，安居乐业靠大家。
+</view>
+<view class="right">
+1、垃圾分类举手之劳，循环利用变废为宝。
+2、垃圾儿女要分家，安居乐业靠大家。
+1、垃圾分类举手之劳，循环利用变废为宝。
+</view> 
+<!-- <view class="picCheck">
+  <text>结果：\n</text>
+  <text>二极管  可回收</text>
+</view> -->
+</view>

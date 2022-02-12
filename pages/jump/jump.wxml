@@ -1,0 +1,56 @@
+<view class="content">
+  <view class="video_detail">
+    <!-- 标题 -->
+    <view class="video_title">{{titList[index]}}</view>
+    <!-- 视频 -->
+    <view class="video_vi"> 
+      <video src="{{videoList[index]}}"></video>
+    </view>
+    <!-- 详情 -->
+    <view class="contect">
+      <text>{{detList[index]}}</text>
+    </view>
+  </view>
+  <view class="more_wrap">
+    <view class="one_item" bindtap="tab" data-id="{{moreInd[0]}}">
+      <!-- 图片 -->
+      <view class="img">
+        <image mode="widthFix" src="{{videoImg[moreInd[0]]}}"></image>
+      </view>
+      <!-- 标题 -->
+      <view class="title">
+        <text>{{titList[moreInd[0]]}}</text>
+      </view>
+    </view>
+    <view class="one_item" bindtap="tab" data-id="{{moreInd[1]}}">
+      <!-- 图片 -->
+      <view class="img">
+        <image mode="widthFix" src="{{videoImg[moreInd[1]]}}"></image>
+      </view>
+      <!-- 标题 -->
+      <view class="title">
+        <text>{{titList[moreInd[1]]}}</text>
+      </view>
+    </view>
+    <view class="one_item" bindtap="tab" data-id="{{moreInd[2]}}">
+      <!-- 图片 -->
+      <view class="img">
+        <image mode="widthFix" src="{{videoImg[moreInd[2]]}}"></image>
+      </view>
+      <!-- 标题 -->
+      <view class="title">
+        <text>{{titList[moreInd[2]]}}</text>
+      </view>
+    </view>
+    <view class="one_item" bindtap="tab" data-id="{{moreInd[3]}}">
+      <!-- 图片 -->
+      <view class="img">
+        <image mode="widthFix" src="{{videoImg[moreInd[3]]}}"></image>
+      </view>
+      <!-- 标题 -->
+      <view class="title">
+        <text>{{titList[moreInd[3]]}}</text>
+      </view>
+    </view>
+  </view>
+</view>

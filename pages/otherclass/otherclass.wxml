@@ -1,0 +1,21 @@
+<view class="content">
+  <image class="background" src="/icons/分类图.png"></image>
+<image class="details" src="https://736f-sorting-88tzu-1301418393.tcb.qcloud.la/1583241721002.png?sign=00d234df63458eee60222487d6b22842&t=1644649060"></image>
+<view class="familiar">常见分类</view>
+<view class="eg1">贝壳</view>
+<view class="eg2">化妆镜</view>
+<view class="eg3">保鲜膜</view>
+<view class="eg4">尿不湿</view>
+<view class="eg5">草席</view>
+<view class="eg6">稻草</view>
+<view class="eg7">发夹</view>
+<view class="eg8">创口贴</view>
+<view class="eg9">无汞电池</view>
+<view class="eg10">肥皂</view>
+<view class="eg11">防晒霜</view>
+<view class="eg12">钢笔</view>
+<view class="eg13">干燥剂</view>
+<view class="eg14">火柴</view>
+<view class="eg15">花盆</view>
+</view>
+

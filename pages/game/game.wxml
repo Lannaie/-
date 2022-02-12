@@ -1,0 +1,25 @@
+<!-- 选项 -->
+<view class="content">
+<image class="background" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583294953540.png"></image>
+<view class="topicname">
+<text class="name" data-text="{{name}}">{{name}}</text>
+</view>
+<view class="topic">
+<image class="img" data-text="{{img}}" src="{{img}}"></image>
+</view>
+<view class="base">
+<button class="{{showed?'opta':'hide'}}" data-text="A" bindtap="opt">{{}}</button>
+<button class="{{showed?'optb':'hide'}}" bindtap="opt" data-text="B"></button>
+<button class="{{showed?'optc':'hide'}}" bindtap="opt" data-text="C"></button>
+<button class="{{showed?'optd':'hide'}}" bindtap="opt" data-text="D"></button>
+</view>
+<view class="{{flag?'tooltip': 'hide'}}">
+<image class="background" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583295430675.png"></image>
+<image class="pic" data-text="{{img}}" src="{{img}}"></image>
+<view class="name">{{name}}</view>
+<!-- 不能超过35个字（包括符号） -->
+<view class="detail">{{instr}}</view>
+<button class="next" data-text="next" bindtap="opt">我知道了</button>
+<text class="judge">{{judge}}</text>
+</view>
+</view>

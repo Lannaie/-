@@ -1,0 +1,5 @@
+<!-- -->
+<view class="content">
+<image class="background" src="cloud://sorting-xpn7k.736f-sorting-xpn7k-1301420238/1583296420577.png"></image>
+<button class="enter" bindtap="enter">进入测试</button>
+</view>
